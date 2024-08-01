@@ -12,6 +12,14 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      backgroundImage: theme => ({
+        'mobile-bg': "url('/hiDpiSmall.webp')",
+        'tablet-bg': "url('/hiDpiLarge.webp')",
+        'desktop-bg': "url('/hiDpiExtraLarge.webp')",
+      }),
+      fontFamily: {
+        trulia: ['TruliaSans', 'Trulia-Fallback', 'sans-serif'],
+      },
     },
   },
   plugins: [],
